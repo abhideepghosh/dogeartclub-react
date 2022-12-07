@@ -1,0 +1,17 @@
+/* body{
+    margin: 0;
+}
+
+.wrapper{
+    
+} */
+.slide2image {
+  background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/memes.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  /* max-width: 100%;
+  height: 100vh; */
+}
