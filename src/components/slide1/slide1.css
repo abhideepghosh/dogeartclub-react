@@ -4,7 +4,7 @@ body {
 
 .wrapper {
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   perspective: 10px;
 }
@@ -94,4 +94,35 @@ h4 {
   left: 40%;
   font-size: 25px;
   top: 75%;
+}
+
+.arrow {
+  position: relative;
+  display: flex;
+  height: 85px;
+  left: 81%;
+  bottom: 10%;
+  animation: MoveUpDown 1s linear infinite;
+  /* transform: rotate(45deg); */
+}
+.img-rotate {
+  transform: rotate(-20deg);
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 8%;
+  }
+}
+
+h1 {
+  color: rgb(255, 213, 0);
+  position: absolute;
+  display: flex;
+  padding-top: 6.5%;
+  transform: rotate(-20deg);
 }

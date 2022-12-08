@@ -19,8 +19,8 @@ body {
 }
 .icon-box {
   background-color: rgb(213, 206, 206);
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50% 50%;
   display: flex;
   justify-content: center;
@@ -369,4 +369,41 @@ body {
   .myP {
     padding: 2%;
   }
+}
+
+.arrow {
+  position: absolute;
+  display: flex;
+  height: 85px;
+  top: 80%;
+  animation: MoveUpDown 1s linear infinite;
+  /* transform: rotate(45deg); */
+}
+.img-rotate {
+  transform: rotate(-20deg);
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 80%;
+  }
+  50% {
+    top: 90%;
+  }
+}
+
+h1 {
+  color: rgb(255, 213, 0);
+  position: absolute;
+  display: flex;
+  padding-top: 60px;
+  transform: rotate(-20deg);
+  width: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+}
+
+.navLogo {
+  height: 9vh;
 }

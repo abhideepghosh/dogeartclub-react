@@ -1,50 +1,31 @@
-body {
-  margin: 0;
-}
-
-.dogWrapper {
+.slide4Wrapper4 {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
 }
 
-header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
+.background4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-.background {
-  transform: translateZ(-10px) scale(2);
+.foreground4 {
+  transform: translate(0%, 0%) scale(1);
 }
 
-.foreground {
-  transform: translateZ(-25px) scale(2);
-  transform: translateX(-10px) scale();
-}
-
-.foreground {
+.foreground4 {
   position: absolute;
-  height: 100%;
+  height: 81%;
   width: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   z-index: -1;
+  margin-top: -100px;
 }
-
-.tiltle {
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;
-}
-
-section {
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
+.chatbox4 {
+  height: 100px;
+  transform: translate(623%, 285%) scale(4);
 }

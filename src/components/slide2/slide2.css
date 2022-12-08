@@ -12,6 +12,33 @@
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  /* scroll-snap-type: y mandatory; */
   /* max-width: 100%;
   height: 100vh; */
+}
+
+.parallax_section {
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax_bg {
+  background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/memes.jpg");
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  min-height: 100%;
+  transform: translate3d(0, 0, -1px) scale(2);
 }
