@@ -1,0 +1,10 @@
+section {
+  padding: 0 !important;
+  scroll-snap-align: start;
+}
+
+.App {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}

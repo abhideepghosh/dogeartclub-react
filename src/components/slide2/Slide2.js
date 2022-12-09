@@ -21,7 +21,7 @@ const Slide2 = () => {
         </p> */}
       </div>
 
-      {/* <img src="/assets/chatbox.png" className="chatbox2" alt="chatbox" /> */}
+      <img src="/assets/chatbox.png" className="chatbox2" alt="chatbox" />
     </div>
   );
 };

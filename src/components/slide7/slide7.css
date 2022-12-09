@@ -27,7 +27,7 @@
 
 .buttondoges1 {
   background-color: #f3cc30; /* Green */
-  position: absolute;
+  position: relative;
   border: none;
   color: #0e0d0dfc;
   padding: 4px 6px;
@@ -37,38 +37,41 @@
   font-size: 6px;
   /* margin: 4px 2px; */
   cursor: pointer;
-  transform: translate(465%, 4302%) scale(2.5);
+  transform: translate(900%, 890%) scale(2.5);
   border: 1px solid black;
+  left: -4%;
 }
 .buttondoges2 {
   background-color: #f3cc30; /* Green */
-  position: absolute;
+  position: relative;
   border: none;
   color: #0e0d0dfc;
-  padding: 4px 17px;
+  padding: 4px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 6px;
   /* margin: 4px 2px; */
+  left: 0.4%;
   cursor: pointer;
-  transform: translate(703%, 4302%) scale(2.5);
+  transform: translate(900%, 890%) scale(2.5);
   border: 1px solid black;
 }
 .buttondoges3 {
   background-color: #f3cc30; /* Green */
-  position: absolute;
+  position: relative;
   border: none;
   color: #0e0d0dfc;
-  padding: 4px 22px;
+  padding: 4px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 6px;
   /* margin: 4px 2px; */
   cursor: pointer;
-  transform: translate(894%, 4302%) scale(2.5);
+  transform: translate(900%, 890%) scale(2.5);
   border: 1px solid black;
+  left: 4.2%;
 }
 
 .ishot {

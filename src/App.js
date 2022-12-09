@@ -12,19 +12,27 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
-      <Slide1 />
-
-      <Slide2 />
-      <Slide3 />
-
-      <Slide4 />
-
-      <Slide5 />
-
-      <Slide6 />
-
-      <Slide7 />
+      <section>
+        <Slide1 />
+      </section>
+      <section>
+        <Slide2 />
+      </section>
+      <section>
+        <Slide3 />
+      </section>
+      <section>
+        <Slide4 />
+      </section>
+      <section>
+        <Slide5 />
+      </section>
+      <section>
+        <Slide6 />
+      </section>
+      <section>
+        <Slide7 />
+      </section>
     </div>
   );
 }
