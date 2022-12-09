@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+#wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+section {
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 10vmin;
+  padding: 1em;
+  color: hsla(0, 0%, 100%, 0.8);
+  background-position: center center;
+  background-size: cover;
+}
+
+section:first-child {
+  background-image: url("https://source.unsplash.com/Bj_MIJ3vpT4/1920x1080");
+}
+
+section:nth-child(2) {
+  background-image: url("https://source.unsplash.com/jWskS_wLMDo/1920x1080");
+}
+
+section:nth-child(3) {
+  background-image: url("https://source.unsplash.com/O6vaYviRDoo/1920x1080");
+}
+
+section:nth-child(4) {
+  background-image: url("https://source.unsplash.com/vPOYZac2hiE/1920x1080");
+}
+
+#indicator {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#indicator > div {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#indicator > div.active {
+  transform: scale(1.6);
+}

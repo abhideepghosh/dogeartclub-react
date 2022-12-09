@@ -1,32 +1,26 @@
-.slide5image {
-  background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/gym.jpg");
+.slide6image {
+  background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/exchange.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   /* max-width: 100%;
-    height: 100vh; */
+      height: 100vh; */
 }
 
-.dogShrink {
+.dogShortener {
   height: 70vh;
   position: relative;
   left: 67%;
   top: 30%;
 }
-.dogShrink2 {
-  height: 50vh;
-  position: relative;
-  left: -22%;
-  top: 30%;
-}
 
-.chatbox5 {
+.chatbox6 {
   opacity: 0.8;
   height: 120px;
   width: 180px;
-  transform: translate(623%, 259%) scale(4);
+  transform: translate(623%, 259%) scale(4) scaleX(-1);
   position: absolute;
-  left: -30%;
+  left: -35%;
 }

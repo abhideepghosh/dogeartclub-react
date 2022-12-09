@@ -75,7 +75,6 @@ section {
   display: flex;
   position: relative;
   left: 48%;
-
   /* transform: scale(50%, 50%); */
   top: 74%;
   opacity: 0.5;

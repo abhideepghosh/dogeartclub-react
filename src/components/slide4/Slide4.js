@@ -1,23 +1,26 @@
 import React from "react";
+import "./slide4.css";
 
-const slide4 = () => {
+const Slide4 = () => {
   return (
-    <div className="slideWrapper4">
-      <img
-        src="https://dai1hr2knmld8.cloudfront.net/bg/community.jpg"
-        className="background4"
-        alt="slide4"
-      />
-
+    <div className="slide4image">
       <img
         src="https://www.dogeartclub.com/_next/image?url=https%3A%2F%2Fdai1hr2knmld8.cloudfront.net%2Fdoges%2Fdoge1.png&w=1920&q=75"
-        className="foreground4"
-        alt="Bg2"
+        alt=""
+        className="dogShort"
       />
+      <img src="/assets/chatbox.png" className="chatbox4" alt="chatbox" />
 
-      {/* <img src="/assets/" className="chatbox4" alt="" /> */}
+      <button className="button-doges4">JOIN OUR DISCORD!</button>
+      <p className="text-sm lg:text-lg text-justify lg:text-wide">
+        Doge Art Club is open to like-minded Doges all around the globe. It’s a
+        community-run project, and you are an important part of it. To take full
+        advantage of the community perks and to exchange success stories and
+        ideas with your fellow Doges, join the Doge Art Club Discord server -
+        that’s where it’s all happening.
+      </p>
     </div>
   );
 };
 
-export default slide4;
+export default Slide4;

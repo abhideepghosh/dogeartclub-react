@@ -1,10 +1,3 @@
-/* body{
-    margin: 0;
-}
-
-.wrapper{
-    
-} */
 .slide2image {
   background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/memes.jpg");
   background-repeat: no-repeat;
@@ -12,33 +5,70 @@
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-  /* scroll-snap-type: y mandatory; */
   /* max-width: 100%;
-  height: 100vh; */
+    height: 100vh; */
+}
+.fs-6 {
+  font-size: 5px;
 }
 
-.parallax_section {
-  min-height: 100vh;
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
+.dogSimple {
+  height: 70vh;
   position: relative;
-  overflow: hidden;
+  left: 67%;
+  top: 30%;
 }
-
-.parallax_bg {
-  background-image: url("https://dai1hr2knmld8.cloudfront.net/bg/memes.jpg");
-  height: 100vh;
+.chatbox2 {
+  opacity: 0.8;
+  height: 120px;
+  width: 180px;
+  transform: translate(623%, 259%) scale(4) scaleX(-1);
   position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: center center;
-  z-index: -1;
-  min-height: 100%;
-  transform: translate3d(0, 0, -1px) scale(2);
+  left: -35%;
 }
+.chat-box {
+  height: max-content;
+  width: 200px;
+  opacity: 0.8;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 40%;
+  top: 125%;
+  transform: translate(0%, 0%) scale(4) scaleX(1);
+}
+.chat-box:before {
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid rgb(210, 14, 14);
+  border-bottom: 13px solid transparent;
+}
+/* 
+.talkbubble {
+  opacity: 0.8;
+  height: 120px;
+  width: 180px;
+  transform: translate(623%, 259%) scale(4) scaleX(-1);
+  position: absolute;
+  left: -35%;
+  top: 0;
+  background: rgb(255, 7, 7);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid rgb(0, 0, 0);
+  border-bottom: 13px solid transparent;
+} */

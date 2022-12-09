@@ -14,6 +14,7 @@ const Slide5 = () => {
         alt=""
         className="dogShrink2"
       />
+      <img src="/assets/chatboxBlack.png" className="chatbox5" alt="chatbox" />
     </div>
   );
 };

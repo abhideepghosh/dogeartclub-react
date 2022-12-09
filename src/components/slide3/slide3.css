@@ -27,6 +27,41 @@
 }
 
 .chatbox3 {
-  height: 100px;
-  transform: translate(623%, 259%) scale(4);
+  opacity: 0.8;
+  height: 120px;
+  width: 180px;
+  transform: translate(777%, 199%) scale(4);
+  position: absolute;
+  left: -30%;
+}
+
+.button-doges {
+  background-color: #f3cc30; /* Green */
+  position: absolute;
+  border: none;
+  color: #0e0d0dfc;
+  padding: 8px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  transform: translate(1185%, 1777%) scale(2.5);
+  border: 1px solid black;
+}
+.button-doges2 {
+  background-color: #f3cc30; /* Green */
+  position: absolute;
+  border: none;
+  color: #0e0d0dfc;
+  padding: 8px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  transform: translate(1092%, 2085%) scale(2.5);
+  border: 1px solid black;
 }
