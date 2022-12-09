@@ -11,8 +11,23 @@ const Slide7 = () => {
       />
       <img src="/assets/chatboxBlack.png" className="chatbox7" alt="chatbox" />
       <button class="buttondoges1">ISHOTTHESHERIFF</button>
-      {/* <button class="buttondoges2">DOGES INSTAGRAM</button>
-      <button class="buttondoges3">DOGES INSTAGRAM</button> */}
+      <button class="buttondoges2">EPICODE</button>
+      <button class="buttondoges3">OTHIS</button>
+      <img
+        src="https://dai1hr2knmld8.cloudfront.net/team/ishot_d.jpeg"
+        alt=""
+        className="ishot"
+      />
+      <img
+        src="https://dai1hr2knmld8.cloudfront.net/team/epicode_d.jpeg"
+        alt=""
+        className="epicode"
+      />
+      <img
+        src="https://dai1hr2knmld8.cloudfront.net/team/othis_d.jpeg"
+        alt=""
+        className="othis"
+      />
     </div>
   );
 };

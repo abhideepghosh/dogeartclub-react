@@ -12,7 +12,8 @@ const Slide4 = () => {
       <img src="/assets/chatbox.png" className="chatbox4" alt="chatbox" />
 
       <button className="button-doges4">JOIN OUR DISCORD!</button>
-      <p className="text-sm lg:text-lg text-justify lg:text-wide">
+
+      <p className="">
         Doge Art Club is open to like-minded Doges all around the globe. It’s a
         community-run project, and you are an important part of it. To take full
         advantage of the community perks and to exchange success stories and
