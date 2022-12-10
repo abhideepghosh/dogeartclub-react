@@ -21,8 +21,8 @@
   width: 180px;
   transform: scale(4) scaleX(-1);
   position: relative;
-  left: 14%;
-  bottom: 29%;
+  left: 27%;
+  bottom: 56%;
 }
 
 .button-doges4 {
@@ -38,4 +38,28 @@
   cursor: pointer;
   transform: translate(-200%, -100%) scale(2.5);
   border: 1px solid black;
+  bottom: 30%;
+  left: 30%;
+}
+.text4 {
+  position: relative;
+  /* padding: 30px; */
+  width: 60%;
+  font-size: 20px;
+  left: 15%;
+  bottom: 40%;
+  color: black;
+  z-index: 10;
+}
+.p4 {
+  height: 20vh;
+  width: 60%;
+}
+.h4 {
+  width: 60%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@1,700&display=swap");
+.p4 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }

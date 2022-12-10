@@ -17,9 +17,9 @@
 }
 .chatbox7 {
   opacity: 0.8;
-  height: 90px;
+  height: 13vh;
   width: 140px;
-  transform: translate(623%, 259%) scale(4);
+  transform: translate(623%, 163%) scale(5);
   position: relative;
   left: -23%;
   bottom: 60%;
@@ -37,7 +37,7 @@
   font-size: 6px;
   /* margin: 4px 2px; */
   cursor: pointer;
-  transform: translate(900%, 890%) scale(2.5);
+  transform: translate(645%, 409%) scale(2.5);
   border: 1px solid black;
   left: -4%;
 }
@@ -54,7 +54,7 @@
   /* margin: 4px 2px; */
   left: 0.4%;
   cursor: pointer;
-  transform: translate(900%, 890%) scale(2.5);
+  transform: translate(714%, 410%) scale(2.5);
   border: 1px solid black;
 }
 .buttondoges3 {
@@ -69,7 +69,7 @@
   font-size: 6px;
   /* margin: 4px 2px; */
   cursor: pointer;
-  transform: translate(900%, 890%) scale(2.5);
+  transform: translate(741%, 410%) scale(2.5);
   border: 1px solid black;
   left: 4.2%;
 }
@@ -78,38 +78,101 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   position: relative;
-  height: 17vh;
+  height: 18vh;
   width: 124px;
   border: 1px solid #ddd;
   border-radius: 4px;
   left: 10%;
   top: 20%;
   border: 4px solid white;
-  transform: translate(17%, -35%) scale(1);
+  transform: translate(-82%, -86%) scale(1);
 }
 .epicode {
   border: 1px solid #ddd;
   border-radius: 4px;
   position: relative;
-  height: 17vh;
+  height: 18vh;
   width: 124px;
   border: 1px solid #ddd;
   border-radius: 4px;
   left: 10%;
   top: 20%;
   border: 4px solid white;
-  transform: translate(17%, -35%) scale(1);
+  transform: translate(-58%, -86%) scale(1);
 }
 .othis {
   border: 1px solid #ddd;
   border-radius: 4px;
   position: relative;
-  height: 17vh;
+  height: 18vh;
   width: 124px;
   border: 1px solid #ddd;
   border-radius: 4px;
   left: 10%;
   top: 20%;
   border: 4px solid white;
-  transform: translate(41%, -35%) scale(1);
+  transform: translate(-31%, -86%) scale(1);
+}
+
+.genesis {
+  position: relative;
+  height: 17vh;
+  width: 120%;
+  font-size: 27px;
+  color: #ffff;
+  right: 347px;
+  left: auto;
+  bottom: 49px;
+}
+
+.artist {
+  position: relative;
+  height: 17vh;
+  width: 120%;
+  font-size: 27px;
+  color: #ffff;
+  right: 152px;
+  left: auto;
+  bottom: 49px;
+}
+
+.genesis {
+  position: relative;
+  height: 17vh;
+  width: 120%;
+  font-size: 27px;
+  color: #ffff;
+  right: 347px;
+  left: auto;
+  bottom: 49px;
+}
+
+.artist {
+  position: relative;
+  height: 17vh;
+  width: 120%;
+  font-size: 27px;
+  color: #ffff;
+  right: 152px;
+  left: auto;
+  bottom: 49px;
+}
+.text7 {
+  position: relative;
+  /* padding: 30px; */
+  width: 60%;
+  font-size: 20px;
+  left: 15%;
+  bottom: 40%;
+  color: white;
+  z-index: 10;
+}
+.h7 {
+  width: 20%;
+  transform: translate(279%, -1782%);
+}
+.p7 {
+  height: 15vh;
+  width: 40%;
+  transform: translate(120%, -393%);
 }

@@ -9,6 +9,7 @@ const Slide2 = () => {
         alt=""
         className="dogSimple"
       />
+      <button class="button-doges-memes">Proof of memes</button>
       <div className="chat-box">
         {/* <h3> Doges love memes </h3>
         <p className="fs-6">

@@ -9,7 +9,11 @@ const Slide7 = () => {
         alt=""
         className="dogAstro"
       />
-      <img src="/assets/chatboxBlack.png" className="chatbox7" alt="chatbox" />
+      <img
+        src="/assets/cloudChatboxBlackInverted.png"
+        className="chatbox7"
+        alt="chatbox"
+      />
       <button class="buttondoges1">ISHOTTHESHERIFF</button>
       <button class="buttondoges2">EPICODE</button>
       <button class="buttondoges3">OTHIS</button>
@@ -28,6 +32,32 @@ const Slide7 = () => {
         alt=""
         className="othis"
       />
+      {/* <div className="text7">
+        <h3 className="h7"> Doges love memes </h3>
+        <p className="p7">
+          Dogecoin started as a meme and evolved to be so much more!
+          <br /> Inspired by that, the first product by Doge Art Club Clone{" "}
+          <br />
+          is the NFT Meme Generator
+          <br />
+          It is a tool to empower creative individuals to easily turn their art
+          into NFTs without
+          <br /> a single line of code and for free!
+        </p>
+      </div> */}
+
+      {/* <div className="text7"> */}
+      <h3 className="h7"> Doges are going to the moon </h3>
+      <p className="p7">
+        So when do we finally go to the moon? Soon!
+        <br />
+        Doge Art Club is launching in Q1 of 2022.
+        <br /> Be part of the Journey before we launch! Woof!
+      </p>
+      {/* </div> */}
+
+      {/* <span className="genesis">GENESIS DOGES</span>
+      <span className="artist">ARTIST</span> */}
     </div>
   );
 };

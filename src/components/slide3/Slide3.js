@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./slide3.css";
 
 const Slide3 = () => {
@@ -11,6 +11,19 @@ const Slide3 = () => {
       />
 
       <img src="/assets/chatboxBlack.png" className="chatbox3" alt="chatbox" />
+      {/* <div className="text3">
+        <h3> Doges love ART </h3>
+        <p>
+          Dogecoin started as a meme and evolved to be so much more!
+          <br /> Inspired by that, the first product by Doge Art Club Clone{" "}
+          <br />
+          is the NFT Meme Generator
+          <br />
+          It is a tool to empower creative individuals to easily turn their art
+          into NFTs without
+          <br /> a single line of code and for free!
+        </p>
+      </div> */}
       <button class="button-doges">DOGES INSTAGRAM</button>
       <button class="button-doges2">ARTIST'S INSTAGRAM</button>
       <div class="chatText">

@@ -26,6 +26,21 @@
   position: relative;
   left: -35%;
 }
+.button-doges-memes {
+  background-color: #f3cc30; /* Green */
+  position: relative;
+  border: none;
+  color: #0e0d0dfc;
+  padding: 8px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  transform: translate(480%, -100%) scale(2.5);
+  border: 1px solid black;
+}
 /* .chat-box {
   height: max-content;
   width: 200px;
