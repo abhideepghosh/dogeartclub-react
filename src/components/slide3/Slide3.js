@@ -24,17 +24,17 @@ const Slide3 = () => {
           <br /> a single line of code and for free!
         </p>
       </div> */}
-      <button class="button-doges">DOGES INSTAGRAM</button>
-      <button class="button-doges2">ARTIST'S INSTAGRAM</button>
-      <div class="chatText">
-        {/* <h1>Doges love art</h1>
-        <p>
+      <button className="button-doges">DOGES INSTAGRAM</button>
+      <button className="button-doges2">ARTIST'S INSTAGRAM</button>
+      <div className="chatText">
+        <h2 className="h3arrange">Doges love art</h2>
+        <p className="p3">
           The Doge Art Club NFT collection is absolutely unique, with artwork
           custom designed from scratch by Polish artist Maciek Ignaciuk aka
           Othis - graphic designer with a background in street art and murals.
           Together we created 9001 Doges using over 200 unique traits. Your
           minted Doge will be like no other on Ethereum blockchain.
-        </p> */}
+        </p>
       </div>
     </div>
   );

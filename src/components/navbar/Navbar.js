@@ -10,7 +10,7 @@ const Navbar = () => {
           alt=""
           className="img-rotate vert-move"
         />
-        <h1>Project By Squad 6</h1>
+        <h1>Join discord & Follow our Twitter</h1>
       </div>
       <div className="container">
         <div className="logo">

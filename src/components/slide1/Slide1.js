@@ -14,6 +14,7 @@ const Slide1 = () => {
         className="background blink-animation"
         alt=""
       />
+      <h2 className="h1">hello dog</h2>
       <h4>Scroll down & join the club!</h4>
       <img src="/assets/scrolldown.png" className="image-scroll" alt="" />
     </div>

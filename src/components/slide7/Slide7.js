@@ -47,7 +47,7 @@ const Slide7 = () => {
       </div> */}
 
       {/* <div className="text7"> */}
-      <h3 className="h7"> Doges are going to the moon </h3>
+      <h2 className="h7">Doges are going to the moon</h2>
       <p className="p7">
         So when do we finally go to the moon? Soon!
         <br />

@@ -85,7 +85,14 @@ section {
     opacity: 0;
   }
 }
-
+.h1 {
+  display: flex;
+  color: white;
+  position: relative;
+  left: 46%;
+  font-size: 25px;
+  top: 75%;
+}
 h4 {
   display: flex;
   color: white;

@@ -9,7 +9,7 @@ const Slide2 = () => {
         alt=""
         className="dogSimple"
       />
-      <button class="button-doges-memes">Proof of memes</button>
+      <button className="button-doges-memes">Proof of memes</button>
       <div className="chat-box">
         {/* <h3> Doges love memes </h3>
         <p className="fs-6">
@@ -23,6 +23,13 @@ const Slide2 = () => {
       </div>
 
       <img src="/assets/chatbox.png" className="chatbox2" alt="chatbox" />
+
+      <h2 className="h2">Doges love memes</h2>
+      <p className="p2">
+        Dogecoin started as a meme and evolved to be so much <br /> more!
+        Inspired by that, the first product by Doge Art <br />
+        Club is the NFT Meme Generator.
+      </p>
     </div>
   );
 };

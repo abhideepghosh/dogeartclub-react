@@ -24,9 +24,38 @@
 
 .chatbox5 {
   opacity: 0.8;
-  height: 120px;
-  width: 180px;
+  height: 160px;
+  width: 240px;
   transform: translate(193%, -150%) scale(4);
   position: relative;
-  left: -30%;
+  left: 13%;
+  bottom: 55%;
+}
+.text5 {
+  position: relative;
+  /* padding: 30px; */
+  width: 60%;
+  font-size: 20px;
+  left: 25%;
+  bottom: 59%;
+  color: white;
+  z-index: 10;
+}
+.p5 {
+  height: 20vh;
+  width: 90%;
+}
+.h5 {
+  width: 60%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@1,700&display=swap");
+.p55 {
+  font-family: "Cabin", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@1,700&display=swap");
+.p5 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
