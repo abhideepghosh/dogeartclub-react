@@ -3,6 +3,7 @@
 Project Made By Squad 6
 Squad Leader: Abhideep Ghosh
 Squad Members: Swati Sharma, Shreyansh Kumar Bari & Prashant Patil
+Site Live At: https://dogeartclub-react.netlify.app/
 
 ## Libraries Used
 
