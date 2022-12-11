@@ -16,7 +16,7 @@ const Slide7 = () => {
         src="/assets/cloudChatboxBlackInverted.png"
         className="chatbox7"
         alt="chatbox"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 850, translateY: 180 }}
         whileInView={{
           opacity: 0.8,
           scale: 4.5,
@@ -26,7 +26,7 @@ const Slide7 = () => {
       />
       <motion.button
         class="buttondoges1"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 295, translateY: 70 }}
         whileInView={{
           opacity: 1,
           scale: 2.5,
@@ -38,7 +38,7 @@ const Slide7 = () => {
       </motion.button>
       <motion.button
         class="buttondoges2"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 345, translateY: 70 }}
         whileInView={{
           opacity: 1,
           scale: 2.5,
@@ -50,7 +50,7 @@ const Slide7 = () => {
       </motion.button>
       <motion.button
         class="buttondoges3"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 410, translateY: 70 }}
         whileInView={{
           opacity: 1,
           scale: 2.5,
@@ -64,7 +64,7 @@ const Slide7 = () => {
         src="https://dai1hr2knmld8.cloudfront.net/team/ishot_d.jpeg"
         alt=""
         className="ishot"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: -110, translateY: -120 }}
         whileInView={{
           opacity: 1,
           scale: 1,
@@ -76,7 +76,7 @@ const Slide7 = () => {
         src="https://dai1hr2knmld8.cloudfront.net/team/epicode_d.jpeg"
         alt=""
         className="epicode"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: -80, translateY: -120 }}
         whileInView={{
           opacity: 1,
           scale: 1,
@@ -88,7 +88,7 @@ const Slide7 = () => {
         src="https://dai1hr2knmld8.cloudfront.net/team/othis_d.jpeg"
         alt=""
         className="othis"
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: -36, translateY: -120 }}
         whileInView={{
           opacity: 1,
           scale: 1,
@@ -112,7 +112,7 @@ const Slide7 = () => {
 
       {/* <div className="text7"> */}
       <motion.h2
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 850, translateY: -410 }}
         whileInView={{
           opacity: 1,
           scale: 1,
@@ -124,7 +124,7 @@ const Slide7 = () => {
         Doges are going to the moon
       </motion.h2>
       <motion.p
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0, translateX: 800, translateY: -420 }}
         whileInView={{
           opacity: 1,
           scale: 1,

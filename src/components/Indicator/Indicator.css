@@ -20,6 +20,7 @@
   display: none;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
   /* font-weight: 20; */
 }
 .section-head {

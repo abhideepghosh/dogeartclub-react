@@ -62,7 +62,7 @@
   position: relative;
   border: none;
   color: #0e0d0dfc;
-  padding: 4px 21px;
+  padding: 4px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -168,7 +168,7 @@
   z-index: 10;
 }
 .h7 {
-  width: 43%;
+  width: 30%;
   transform: translate(131%, -1410%);
 }
 .p7 {
