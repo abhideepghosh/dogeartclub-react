@@ -7,30 +7,32 @@ import Navbar from "./components/navbar/Navbar";
 import Slide5 from "./components/slide5/Slide5";
 import Slide6 from "./components/slide6/Slide6";
 import Slide7 from "./components/slide7/Slide7";
+import Indicator from "./components/Indicator/Indicator";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <section>
+      <Indicator />
+      <section id="section1">
         <Slide1 />
       </section>
-      <section>
+      <section id="section2">
         <Slide2 />
       </section>
-      <section>
+      <section id="section3">
         <Slide3 />
       </section>
-      <section>
+      <section id="section4">
         <Slide4 />
       </section>
-      <section>
+      <section id="section5">
         <Slide5 />
       </section>
-      <section>
+      <section id="section6">
         <Slide6 />
       </section>
-      <section>
+      <section id="section7">
         <Slide7 />
       </section>
     </div>
