@@ -1,35 +1,64 @@
 import React from "react";
 import "./slide2.css";
+import { motion } from "framer-motion";
 
 const Slide2 = () => {
   return (
     <div className="slide2image">
-      <img
+      <motion.img
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
         src="https://www.dogeartclub.com/_next/image?url=https%3A%2F%2Fdai1hr2knmld8.cloudfront.net%2Fdoges%2Fdogememes.png&w=1920&q=75"
         alt=""
         className="dogSimple"
       />
-      <button className="button-doges-memes">Proof of memes</button>
-      <div className="chat-box">
-        {/* <h3> Doges love memes </h3>
-        <p className="fs-6">
-          Dogecoin started as a meme and evolved to be so much more! Inspired by
-          that, the first product by Doge Art Club Clone is the NFT Meme
-          Generator
-          <br />
-          It is a tool to empower creative individuals to easily turn their art
-          into NFTs without a single line of code and for free!
-        </p> */}
-      </div>
+      <motion.button
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 1,
+          scale: 2.5,
+          translateY: 50,
+          translateX: 260,
+        }}
+        className="button-doges-memes"
+      >
+        Proof of memes
+      </motion.button>
 
-      <img src="/assets/chatbox.png" className="chatbox2" alt="chatbox" />
+      <motion.img
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 0.8, scale: 3.5, scaleX: -1 }}
+        src="/assets/chatbox.png"
+        className="chatbox2"
+        alt="chatbox"
+      />
 
-      <h2 className="h2">Doges love memes</h2>
-      <p className="p2">
+      <motion.h2
+        className="h2"
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 1,
+          scale: 1,
+          translateX: 500,
+          translateY: -380,
+        }}
+      >
+        Doges love memes
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 1,
+          scale: 1,
+          translateX: 500,
+          translateY: -380,
+        }}
+        className="p2"
+      >
         Dogecoin started as a meme and evolved to be so much <br /> more!
         Inspired by that, the first product by Doge Art <br />
         Club is the NFT Meme Generator.
-      </p>
+      </motion.p>
     </div>
   );
 };

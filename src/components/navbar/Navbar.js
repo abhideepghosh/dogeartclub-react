@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="container">
         <div className="logo">
-          <a href="#">
+          <a href="#section1">
             <img
               src="https://www.dogeartclub.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2FDAC.fbacb865f3afe0d7b981ba279a2f8f10.svg&w=828&q=75"
               className="navLogo"
@@ -25,21 +25,21 @@ const Navbar = () => {
         <div id="mainListDiv" className="main_list">
           <ul className="navlinks">
             <li>
-              <a href="https://discord.com/invite/dogeartclub" target="_blank">
+              <a href="https://discord.com" target="_blank">
                 <div className="icon-box">
                   <i className="fa-brands fa-discord icons" />
                 </div>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/DogeArtClub" target="_blank">
+              <a href="https://twitter.com" target="_blank">
                 <div className="icon-box">
                   <i class="fa-brands fa-twitter icons" />
                 </div>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/dogeartclub/" target="_blank">
+              <a href="https://www.instagram.com" target="_blank">
                 <div className="icon-box">
                   <i class="fa-brands fa-square-instagram icons" />
                 </div>
