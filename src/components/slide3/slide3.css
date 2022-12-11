@@ -15,10 +15,6 @@
 }
 
 .foreground3 {
-  /* transform: translate(-23%, 23%) scale(1); */
-}
-
-.foreground3 {
   position: absolute;
   height: 81%;
   width: 100%;
