@@ -18,10 +18,43 @@ const Slide3 = () => {
         alt="Bg2"
       />
 
-      <img src="/assets/chatboxBlack.png" className="chatbox3" alt="chatbox" />
+      <motion.img
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 0.8,
+          scale: 4,
+          translateX: 850,
+          translateY: 250,
+        }}
+        src="/assets/chatboxBlack.png"
+        className="chatbox3"
+        alt="chatbox"
+      />
 
-      <button className="button-doges">DOGES INSTAGRAM</button>
-      <button className="button-doges2">ARTIST'S INSTAGRAM</button>
+      <motion.button
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 1,
+          scale: 2.7,
+          translateX: 906,
+          translateY: 500,
+        }}
+        className="button-doges"
+      >
+        DOGES INSTAGRAM
+      </motion.button>
+      <motion.button
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{
+          opacity: 1,
+          scale: 2.5,
+          translateX: 900,
+          translateY: 600,
+        }}
+        className="button-doges2"
+      >
+        ARTIST'S INSTAGRAM
+      </motion.button>
       <div className="chatText">
         <h2 className="h3arrange">Doges love art</h2>
         <p className="p3">
