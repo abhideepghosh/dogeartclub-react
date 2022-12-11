@@ -21,7 +21,7 @@ const Slide5 = () => {
         </h2>
         <p className="p5">
           The best and absolute unique utility of Doge Art Club is its
-          innovative Doge evolution mechanism. Take your Doge to the Gym - an
+          innovative Doge mechanism. Take your Doge to the Gym - an
           inhouse-built NFT staking solution where your Doge can train and gain
           strength and experience. Continuous staking unlocks the final form of
           your Doge - the Buffed Doge. It’s a separate NFT that you can then
